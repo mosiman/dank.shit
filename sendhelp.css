@@ -1,0 +1,203 @@
+.ALLOFDIS{
+	cursor: url(https://s3.amazonaws.com/dank.shit/Derp.cur), auto;
+}
+.BOXBOX{
+	position: absolute;
+	left: 0;
+	opacity:100%; 
+	border: 2px
+	height: 250px;
+	width: 100%;
+	margin: auto;
+	top: 0%;
+	/*margin-top: 310px;*/
+	text-align: center;
+	color: yellow; 
+}
+body {
+	cursor: url(https://s3.amazonaws.com/dank.shit/Derp.cur), auto;
+	background-image: url('http://cdn.makeagif.com/media/3-26-2016/k26FWs.gif'); 
+	background-position: absolute; 
+	background-size: auto;  
+	background-repeat: repeat;
+}
+h1 {
+	font-family: "Comic Sans MS";
+	left: 0;
+	line-height: 200px;
+	margin: auto;
+	margin-top: 250px;
+	position: absolute; 
+	top: 30%; 
+	width: 100%;
+	text-align: center;
+	color: white; 
+}
+
+h2 {
+	font-family: "Comic Sans MS";
+	left: 0;
+	line-height: 200px;
+	margin: auto;
+	margin-top: -100px;
+	position: absolute; 
+	top: 50%; 
+	width: 100%;
+	text-align: center;
+	color: yellow; 
+}
+.rw_wrapper{
+	width: 80%;
+	position: relative;
+	margin: 110px auto 0 auto;
+	font-family: 'Comic Sans MS';
+	padding: 10px;
+}
+
+.rw-sentence {
+	margin: 0;
+	text-align: left;
+}
+
+.rw-sentence span{
+	color: green;
+	white-space: nowrap;
+	font-size: 25px; 
+	font-weight: normal;
+}
+
+.rw-words {
+	display: inline;;
+	text-indent: 10px; 
+}
+
+.rw-words span{
+	position: absolute;
+	opacity: 0; 
+	overflow: hidden;
+	width: 100%;
+	color: blue; 
+}
+
+.rw-words-1 span{
+	animation: rotateWordsFirst 5s linear infinite 0s; 
+}
+
+.leftTrump img{
+	height: 25%;
+	width: 25%;
+	position: absolute;
+	left: 5%;
+	margin: auto;
+	margin-top: -100px;
+	position: absolute; 
+	top: 50%; 
+	color: yellow; 
+}
+
+.rightTrump img{
+	height: 25%;
+	width: 25%;
+	position: absolute;
+	right: 5%;
+	margin: auto;
+	margin-top: -100px;
+	top: 50%; 
+	color: yellow; 
+}
+.rectangle {
+	font-family: "Comic Sans MS";
+	left: 32%;
+	margin: auto;
+	margin-top: -100px;
+	position: absolute; 
+	top: 50%; 
+	width: 35%;
+	height: 150px;
+	text-align: center;
+	color: yellow; 
+	/*position: absolute;
+	opacity: 100; 
+	border: 2px
+	height: 250px;
+	width: 500px;
+	left: 36.5%;
+	margin: auto;
+	top: 37%;
+	/*margin-top: 325px;*/
+	text-align: center;
+	color: black; 
+	-webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+
+.invisbox img{
+	font-family: "Comic Sans MS";
+	left: 25%;
+	opacity: 0;
+	line-height: 200px;
+	margin: auto;
+	margin-top: -100px;
+	position: absolute; 
+	top: 50%; 
+	width: 40%;
+	height: 250px;
+	text-align: center;
+	color: yellow; 
+	/*position: absolute;
+	left: 36.5%;
+	opacity:0; 
+	border: 2px
+	height: 250px;
+	width: 500px;
+	margin: auto;
+	top: 37%;
+	/*margin-top: 310px;*/
+	text-align: center;
+	color: yellow; 
+}
+
+.quotes h1{
+	margin: auto;
+	text-align: center;
+	font-size: 15pt;  
+	/*margin-top: 500px;*/
+	top: 90%;
+	line-height: 50px;
+	color: blue; 
+	background-color: pink;
+}
+
+@keyframes rotateWordsFirst {
+	0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+	25% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}
+
+@-webkit-keyframes glowing {
+  0% { background-color: #004A7F; -webkit-box-shadow: 0 0 3px #004A7F; }
+  50% { background-color: #0094FF; -webkit-box-shadow: 0 0 10px #0094FF; }
+  100% { background-color: #004A7F; -webkit-box-shadow: 0 0 3px #004A7F; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #004A7F; -moz-box-shadow: 0 0 3px #004A7F; }
+  50% { background-color: #0094FF; -moz-box-shadow: 0 0 10px #0094FF; }
+  100% { background-color: #004A7F; -moz-box-shadow: 0 0 3px #004A7F; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #004A7F; box-shadow: 0 0 3px #004A7F; }
+  50% { background-color: #0094FF; box-shadow: 0 0 10px #0094FF; }
+  100% { background-color: #004A7F; box-shadow: 0 0 3px #004A7F; }
+}
+
+@keyframes glowing {
+  0% { background-color: #004A7F; box-shadow: 0 0 3px #004A7F; }
+  50% { background-color: #0094FF; box-shadow: 0 0 10px #0094FF; }
+  100% { background-color: #004A7F; box-shadow: 0 0 3px #004A7F; }
+}
